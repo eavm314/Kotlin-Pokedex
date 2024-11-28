@@ -1,9 +1,9 @@
-package dev.marcosfarias.pokedex.database
+package com.enrique.pokedex.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import dev.marcosfarias.pokedex.database.dao.PokemonDAO
-import dev.marcosfarias.pokedex.model.Pokemon
+import com.enrique.pokedex.database.dao.PokemonDAO
+import com.enrique.pokedex.model.Pokemon
 
 @Database(entities = [Pokemon::class], version = 5, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {

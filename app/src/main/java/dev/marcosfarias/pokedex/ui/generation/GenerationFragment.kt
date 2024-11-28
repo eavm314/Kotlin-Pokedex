@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.generation
+package com.enrique.pokedex.ui.generation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentGenerationBinding
-import dev.marcosfarias.pokedex.model.Generation
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentGenerationBinding
+import com.enrique.pokedex.model.Generation
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class GenerationFragment : BottomSheetDialogFragment() {

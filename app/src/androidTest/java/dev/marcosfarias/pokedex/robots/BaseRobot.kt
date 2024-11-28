@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.robots
+package com.enrique.pokedex.robots
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onView
@@ -8,7 +8,7 @@ import androidx.test.espresso.assertion.ViewAssertions
 import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.*
-import dev.marcosfarias.pokedex.R
+import com.enrique.pokedex.R
 
 open class BaseRobot {
 

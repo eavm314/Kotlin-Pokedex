@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

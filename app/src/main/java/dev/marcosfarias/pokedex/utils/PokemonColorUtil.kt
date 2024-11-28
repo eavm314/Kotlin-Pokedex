@@ -1,10 +1,10 @@
-package dev.marcosfarias.pokedex.utils
+package com.enrique.pokedex.utils
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
 import androidx.core.content.ContextCompat
-import dev.marcosfarias.pokedex.R
+import com.enrique.pokedex.R
 import java.util.Locale
 
 class PokemonColorUtil(var context: Context) {

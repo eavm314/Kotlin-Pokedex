@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.database.dao
+package com.enrique.pokedex.database.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import dev.marcosfarias.pokedex.model.Pokemon
+import com.enrique.pokedex.model.Pokemon
 
 @Dao
 interface PokemonDAO {

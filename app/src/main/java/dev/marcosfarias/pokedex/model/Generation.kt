@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.model
+package com.enrique.pokedex.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

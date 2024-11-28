@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.utils
+package com.enrique.pokedex.utils
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

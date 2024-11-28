@@ -1,14 +1,14 @@
-package dev.marcosfarias.pokedex.ui.dashboard
+package com.enrique.pokedex.ui.dashboard
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.ui.dashboard.about.AboutFragment
-import dev.marcosfarias.pokedex.ui.dashboard.evolution.EvolutionFragment
-import dev.marcosfarias.pokedex.ui.dashboard.moves.MovesFragment
-import dev.marcosfarias.pokedex.ui.dashboard.stats.StatsFragment
+import com.enrique.pokedex.R
+import com.enrique.pokedex.ui.dashboard.about.AboutFragment
+import com.enrique.pokedex.ui.dashboard.evolution.EvolutionFragment
+import com.enrique.pokedex.ui.dashboard.moves.MovesFragment
+import com.enrique.pokedex.ui.dashboard.stats.StatsFragment
 
 class ViewPagerAdapter(
     supportFragmentManager: FragmentManager,

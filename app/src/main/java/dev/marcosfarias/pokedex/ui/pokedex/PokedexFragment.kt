@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.pokedex
+package com.enrique.pokedex.ui.pokedex
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,11 @@ import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.leinardi.android.speeddial.SpeedDialView
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentPokedexBinding
-import dev.marcosfarias.pokedex.ui.generation.GenerationFragment
-import dev.marcosfarias.pokedex.ui.search.SearchFragment
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentPokedexBinding
+import com.enrique.pokedex.ui.generation.GenerationFragment
+import com.enrique.pokedex.ui.search.SearchFragment
+import com.enrique.pokedex.utils.PokemonColorUtil
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class PokedexFragment : Fragment() {

@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.dashboard
+package com.enrique.pokedex.ui.dashboard
 
 import android.graphics.PorterDuff
 import android.graphics.PorterDuffColorFilter
@@ -9,13 +9,13 @@ import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import dev.marcosfarias.pokedex.GlideApp
+import com.enrique.pokedex.GlideApp
 import androidx.transition.TransitionInflater
 import com.bumptech.glide.Glide
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentDashboardBinding
-import dev.marcosfarias.pokedex.utils.ImageLoadingListener
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentDashboardBinding
+import com.enrique.pokedex.utils.ImageLoadingListener
+import com.enrique.pokedex.utils.PokemonColorUtil
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class DashboardFragment : Fragment() {

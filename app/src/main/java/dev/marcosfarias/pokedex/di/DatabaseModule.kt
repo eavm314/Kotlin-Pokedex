@@ -1,8 +1,8 @@
-package dev.marcosfarias.pokedex.di
+package com.enrique.pokedex.di
 
 import androidx.room.Room
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.database.AppDatabase
+import com.enrique.pokedex.R
+import com.enrique.pokedex.database.AppDatabase
 import org.koin.android.ext.koin.androidApplication
 import org.koin.dsl.module
 

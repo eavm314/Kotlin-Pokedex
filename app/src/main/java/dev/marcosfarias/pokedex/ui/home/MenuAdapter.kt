@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.home
+package com.enrique.pokedex.ui.home
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.ItemMenuBinding
-import dev.marcosfarias.pokedex.model.Menu
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.ItemMenuBinding
+import com.enrique.pokedex.model.Menu
+import com.enrique.pokedex.utils.PokemonColorUtil
 
 class MenuAdapter(
     private val list: List<Menu>,

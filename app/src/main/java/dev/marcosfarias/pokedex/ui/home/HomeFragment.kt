@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.home
+package com.enrique.pokedex.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,11 +9,11 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentHomeBinding
-import dev.marcosfarias.pokedex.model.Menu
-import dev.marcosfarias.pokedex.model.News
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentHomeBinding
+import com.enrique.pokedex.model.Menu
+import com.enrique.pokedex.model.News
+import com.enrique.pokedex.utils.PokemonColorUtil
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class HomeFragment : Fragment() {

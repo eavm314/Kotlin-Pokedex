@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.dashboard.evolution
+package com.enrique.pokedex.ui.dashboard.evolution
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentEvolutionBinding
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.ui.dashboard.DashboardViewModel
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentEvolutionBinding
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.ui.dashboard.DashboardViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class EvolutionFragment : Fragment() {

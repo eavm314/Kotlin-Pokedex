@@ -1,11 +1,11 @@
-package dev.marcosfarias.pokedex.ui.search
+package com.enrique.pokedex.ui.search
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import dev.marcosfarias.pokedex.R
+import com.enrique.pokedex.R
 
 class SearchFragment : BottomSheetDialogFragment() {
 

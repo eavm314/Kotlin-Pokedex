@@ -1,10 +1,10 @@
-package dev.marcosfarias.pokedex.ui.generation
+package com.enrique.pokedex.ui.generation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.model.Generation
+import com.enrique.pokedex.R
+import com.enrique.pokedex.model.Generation
 
 class GenerationViewModel : ViewModel() {
 

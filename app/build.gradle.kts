@@ -11,7 +11,7 @@ android {
     compileSdk = 33
     buildToolsVersion = "33.0.0"
     defaultConfig {
-        applicationId = "dev.marcosfarias.pokedex"
+        applicationId = "com.enrique.pokedex"
         minSdk = 23
         targetSdk = 33
         versionCode = 1
@@ -37,7 +37,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
-    namespace = "dev.marcosfarias.pokedex"
+    namespace = "com.enrique.pokedex"
 }
 
 dependencies {

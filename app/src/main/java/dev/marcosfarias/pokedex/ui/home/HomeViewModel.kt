@@ -1,11 +1,11 @@
-package dev.marcosfarias.pokedex.ui.home
+package com.enrique.pokedex.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.model.Menu
-import dev.marcosfarias.pokedex.model.News
+import com.enrique.pokedex.R
+import com.enrique.pokedex.model.Menu
+import com.enrique.pokedex.model.News
 
 class HomeViewModel : ViewModel() {
 

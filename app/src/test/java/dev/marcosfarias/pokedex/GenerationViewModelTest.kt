@@ -1,8 +1,8 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import dev.marcosfarias.pokedex.model.Generation
-import dev.marcosfarias.pokedex.ui.generation.GenerationViewModel
+import com.enrique.pokedex.model.Generation
+import com.enrique.pokedex.ui.generation.GenerationViewModel
 import io.mockk.spyk
 import io.mockk.unmockkAll
 import org.junit.*

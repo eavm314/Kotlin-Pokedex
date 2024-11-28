@@ -1,6 +1,6 @@
-package dev.marcosfarias.pokedex.repository
+package com.enrique.pokedex.repository
 
-import dev.marcosfarias.pokedex.model.Pokemon
+import com.enrique.pokedex.model.Pokemon
 import retrofit2.Call
 import retrofit2.http.GET
 

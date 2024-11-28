@@ -1,11 +1,11 @@
-package dev.marcosfarias.pokedex.ui.dashboard.moves
+package com.enrique.pokedex.ui.dashboard.moves
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import dev.marcosfarias.pokedex.R
+import com.enrique.pokedex.R
 
 class MovesFragment : Fragment() {
 

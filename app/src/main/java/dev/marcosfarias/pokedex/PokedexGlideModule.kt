@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import com.bumptech.glide.annotation.GlideModule
 import com.bumptech.glide.module.AppGlideModule

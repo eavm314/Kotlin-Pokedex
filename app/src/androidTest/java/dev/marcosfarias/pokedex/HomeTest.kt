@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import android.content.res.Resources
 import androidx.fragment.app.testing.launchFragmentInContainer
@@ -7,8 +7,8 @@ import androidx.navigation.testing.TestNavHostController
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import dev.marcosfarias.pokedex.robots.BaseRobot
-import dev.marcosfarias.pokedex.ui.home.HomeFragment
+import com.enrique.pokedex.robots.BaseRobot
+import com.enrique.pokedex.ui.home.HomeFragment
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

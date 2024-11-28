@@ -1,6 +1,6 @@
-package dev.marcosfarias.pokedex.di
+package com.enrique.pokedex.di
 
-import dev.marcosfarias.pokedex.repository.PokemonService
+import com.enrique.pokedex.repository.PokemonService
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

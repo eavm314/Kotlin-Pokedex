@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.model
+package com.enrique.pokedex.model
 
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes

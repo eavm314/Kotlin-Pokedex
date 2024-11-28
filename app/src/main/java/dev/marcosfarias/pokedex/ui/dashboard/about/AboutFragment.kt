@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.dashboard.about
+package com.enrique.pokedex.ui.dashboard.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.FragmentAboutBinding
-import dev.marcosfarias.pokedex.ui.dashboard.DashboardViewModel
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.FragmentAboutBinding
+import com.enrique.pokedex.ui.dashboard.DashboardViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class AboutFragment : Fragment() {

@@ -1,13 +1,13 @@
-package dev.marcosfarias.pokedex.ui.generation
+package com.enrique.pokedex.ui.generation
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.ItemGenerationBinding
-import dev.marcosfarias.pokedex.model.Generation
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.ItemGenerationBinding
+import com.enrique.pokedex.model.Generation
 
 class GenerationAdapter(
     private val list: List<Generation>,

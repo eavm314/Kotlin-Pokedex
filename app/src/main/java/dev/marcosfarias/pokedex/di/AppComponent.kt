@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.di
+package com.enrique.pokedex.di
 
 val appComponent = listOf(
     databaseModule,

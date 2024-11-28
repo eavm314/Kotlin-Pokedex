@@ -1,10 +1,10 @@
-package dev.marcosfarias.pokedex.model
+package com.enrique.pokedex.model
 
 import androidx.annotation.NonNull
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
-import dev.marcosfarias.pokedex.utils.ListStringConverter
+import com.enrique.pokedex.utils.ListStringConverter
 
 @Entity
 @TypeConverters(ListStringConverter::class)

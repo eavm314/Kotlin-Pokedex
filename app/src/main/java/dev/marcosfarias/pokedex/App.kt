@@ -1,7 +1,7 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import android.app.Application
-import dev.marcosfarias.pokedex.di.appComponent
+import com.enrique.pokedex.di.appComponent
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

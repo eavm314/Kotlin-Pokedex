@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.pokedex
+package com.enrique.pokedex.ui.pokedex
 
 import android.graphics.PorterDuff
 import android.graphics.PorterDuffColorFilter
@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import dev.marcosfarias.pokedex.GlideApp
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.ItemPokemonBinding
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.utils.ImageLoadingListener
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.GlideApp
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.ItemPokemonBinding
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.utils.ImageLoadingListener
+import com.enrique.pokedex.utils.PokemonColorUtil
 
 class PokemonAdapter(
     private val list: List<Pokemon>,

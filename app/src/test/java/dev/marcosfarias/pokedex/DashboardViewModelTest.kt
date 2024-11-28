@@ -1,11 +1,11 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dev.marcosfarias.pokedex.database.dao.PokemonDAO
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.ui.dashboard.DashboardViewModel
+import com.enrique.pokedex.database.dao.PokemonDAO
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.ui.dashboard.DashboardViewModel
 import io.mockk.*
 import org.junit.*
 

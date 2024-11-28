@@ -1,9 +1,9 @@
-package dev.marcosfarias.pokedex.ui.pokedex
+package com.enrique.pokedex.ui.pokedex
 
 import androidx.lifecycle.ViewModel
-import dev.marcosfarias.pokedex.database.dao.PokemonDAO
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.repository.PokemonService
+import com.enrique.pokedex.database.dao.PokemonDAO
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.repository.PokemonService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

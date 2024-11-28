@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex
+package com.enrique.pokedex
 
 import android.content.res.Resources
 import androidx.fragment.app.testing.launchFragmentInContainer
@@ -6,9 +6,9 @@ import androidx.navigation.Navigation
 import androidx.navigation.testing.TestNavHostController
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.platform.app.InstrumentationRegistry
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.robots.BaseRobot
-import dev.marcosfarias.pokedex.ui.dashboard.DashboardFragment
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.robots.BaseRobot
+import com.enrique.pokedex.ui.dashboard.DashboardFragment
 import io.mockk.mockk
 import org.junit.Before
 import org.junit.Test

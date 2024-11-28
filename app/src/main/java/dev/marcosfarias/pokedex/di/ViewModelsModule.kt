@@ -1,9 +1,9 @@
-package dev.marcosfarias.pokedex.di
+package com.enrique.pokedex.di
 
-import dev.marcosfarias.pokedex.ui.dashboard.DashboardViewModel
-import dev.marcosfarias.pokedex.ui.generation.GenerationViewModel
-import dev.marcosfarias.pokedex.ui.home.HomeViewModel
-import dev.marcosfarias.pokedex.ui.pokedex.PokedexViewModel
+import com.enrique.pokedex.ui.dashboard.DashboardViewModel
+import com.enrique.pokedex.ui.generation.GenerationViewModel
+import com.enrique.pokedex.ui.home.HomeViewModel
+import com.enrique.pokedex.ui.pokedex.PokedexViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

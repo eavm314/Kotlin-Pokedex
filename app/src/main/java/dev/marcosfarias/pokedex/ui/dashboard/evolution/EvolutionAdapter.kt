@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.dashboard.evolution
+package com.enrique.pokedex.ui.dashboard.evolution
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -8,11 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import dev.marcosfarias.pokedex.GlideApp
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.databinding.ItemPokemonBinding
-import dev.marcosfarias.pokedex.model.Pokemon
-import dev.marcosfarias.pokedex.utils.PokemonColorUtil
+import com.enrique.pokedex.GlideApp
+import com.enrique.pokedex.R
+import com.enrique.pokedex.databinding.ItemPokemonBinding
+import com.enrique.pokedex.model.Pokemon
+import com.enrique.pokedex.utils.PokemonColorUtil
 
 class EvolutionAdapter(
     private val context: Context

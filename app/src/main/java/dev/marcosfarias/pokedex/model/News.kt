@@ -1,3 +1,3 @@
-package dev.marcosfarias.pokedex.model
+package com.enrique.pokedex.model
 
 class News

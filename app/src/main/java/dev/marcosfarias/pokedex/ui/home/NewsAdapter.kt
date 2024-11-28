@@ -1,4 +1,4 @@
-package dev.marcosfarias.pokedex.ui.home
+package com.enrique.pokedex.ui.home
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import dev.marcosfarias.pokedex.R
-import dev.marcosfarias.pokedex.model.News
+import com.enrique.pokedex.R
+import com.enrique.pokedex.model.News
 
 class NewsAdapter(
     private val list: List<News>,
